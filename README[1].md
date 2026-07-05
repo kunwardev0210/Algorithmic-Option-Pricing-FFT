@@ -27,15 +27,7 @@ Comprehend foundational financial models and build Python frameworks to dynamica
 ## 🗂️ Project Structure
 
 ```
-algo-options-pricing-fft/
-├── README.md
-├── requirements.txt
-├── LICENSE
-├── data/                   # Market data used for validation
-├── notebooks/              # Exploratory analysis & derivations
-│   ├── ito_lemma_simulation.ipynb
-│   ├── black_scholes_derivation.ipynb
-│   └── fft_pricing_benchmark.ipynb
+
 ├── src/
 │   ├── __init__.py
 │   ├── simulate_paths.py    # Brownian motion / Monte Carlo path simulation
@@ -43,8 +35,7 @@ algo-options-pricing-fft/
 │   ├── fft_pricing.py       # Carr-Madan FFT option pricing engine
 │   ├── risk_metrics.py      # Risk evaluation utilities
 │   └── validate.py          # Market data validation & error metrics
-└── tests/
-    └── test_pricing_engine.py
+
 ```
 
 ---
@@ -59,13 +50,7 @@ algo-options-pricing-fft/
 
 ---
 
-## 🚀 Installation
 
-```bash
-git clone https://github.com/<your-username>/algo-options-pricing-fft.git
-cd algo-options-pricing-fft
-pip install -r requirements.txt
-```
 
 ## ▶️ Usage
 
@@ -93,9 +78,7 @@ print(f"BSM Price: {bsm:.4f}")
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
 
 ## 🙋 Contact
 
